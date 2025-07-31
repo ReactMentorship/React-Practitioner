@@ -1,4 +1,4 @@
-## 🧠 React Intermediate Mentorship Guide
+##  React Intermediate Mentorship Guide
 
 Welcome! This repository contains the resources and activities for the React mentorship program. Follow the steps below to complete each activity.
 
