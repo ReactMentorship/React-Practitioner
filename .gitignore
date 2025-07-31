@@ -1,0 +1,61 @@
+# ─── FRONTEND (React + Vite) ─────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.env
+
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# ─── BACKEND (Node + JSON Server) ────────────────────────
+backend/node_modules/
+backend/dist/
+backend/build/
+# backend/.env
+# backend/db-*.json
+
+# Logs
+backend/logs/
+backend/*.log
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# Runtime data
+backend/pids/
+backend/*.pid
+backend/*.seed
+backend/*.pid.lock
+
+# TypeScript
+backend/*.tsbuildinfo
+
+# Coverage
+backend/coverage/
+backend/.nyc_output/
+
+# ESLint
+backend/.eslintcache
+
+# ─── COMMON ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment
+# .env
