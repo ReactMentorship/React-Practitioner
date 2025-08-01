@@ -4,6 +4,12 @@ Welcome! This repository contains the resources and activities for the React men
 
 ---
 
+### 🔒 Read-Only Repository
+
+This repository is intended for educational purposes. Feel free to fork and explore, but please do not request direct changes or pull requests. All contributions should be made in your own fork.
+
+---
+
 ### 📁 Repository Structure
 
 The main repository contains:
