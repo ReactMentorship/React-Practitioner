@@ -9,7 +9,7 @@ import Router from "./components/Router";
 import queryClient from "./queryClient";
 import { persistor, store } from "./stores/authStore";
 import theme from "./theme";
-
+console.log('terminada')
 function App() {
   return (
     <Provider store={store}>
