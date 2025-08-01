@@ -55,10 +55,7 @@ cd your-forked-repo
 
 This allows them to review your pull requests. Go to **Settings > Collaborators** in your fork and add:
 
-- diego-arroniz
-- JenniferNevarez
-- Klizz
-- DavidEHA
+- ReactMentorship
 
 git checkout activity-02-custom-hooks
 
@@ -114,10 +111,7 @@ Go to your fork on GitHub and open a **pull request from your solution branch to
 
 - Assign the following mentors as reviewers:
 
-  - diego-arroniz
-  - JenniferNevarez
-  - Klizz
-  - DavidEHA
+  - ReactMentorship
 
 - Add a clear description of what you implemented and any notes you want the reviewers to consider.
 
