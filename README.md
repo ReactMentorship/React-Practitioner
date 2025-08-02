@@ -8,6 +8,28 @@ Welcome! This repository contains the resources and activities for the React men
 
 This repository is intended for educational purposes. Feel free to fork and explore, but please do not request direct changes or pull requests. All contributions should be made in your own fork.
 
+
+---
+
+### 🚀 Getting Started
+
+#### 1. Fork the repository
+
+Click the **"Fork"** button in the top-right corner to create your own copy.
+
+#### 2. Clone your fork locally
+
+```bash
+git clone https://github.com/your-username/your-forked-repo.git
+cd your-forked-repo
+```
+
+#### 3. Add mentors as collaborators
+
+This allows them to review your pull requests. Go to **Settings > Collaborators** in your fork and add:
+
+- ReactMentorship
+
 ---
 
 ### 📁 Repository Structure
@@ -35,32 +57,6 @@ Examples:
 - `activity-10-ssr`
 
 All branches contain the same content; they are separated solely to facilitate review through pull requests. In the event of a merge, the remaining branches will remain fully functional and unaffected.
-
----
-
-### 🚀 Getting Started
-
-#### 1. Fork the repository
-
-Click the **"Fork"** button in the top-right corner to create your own copy.
-
-#### 2. Clone your fork locally
-
-```bash
-git clone https://github.com/your-username/your-forked-repo.git
-cd your-forked-repo
-```
-
-#### 3. Add mentors as collaborators
-
-This allows them to review your pull requests. Go to **Settings > Collaborators** in your fork and add:
-
-- ReactMentorship
-
-git checkout activity-02-custom-hooks
-
-Continuing with the activity instructions section of the `README.md`:
-
 ---
 
 ### 🧩 How to Work on an Activity
@@ -115,9 +111,61 @@ Go to your fork on GitHub and open a **pull request from your solution branch to
 
 - Add a clear description of what you implemented and any notes you want the reviewers to consider.
 
-Here’s the final section of the `README.md` with best practices for mentees:
 
 ---
+
+## 🏁 Getting Started
+
+This repository contains three separate applications:
+
+- **`backend/`** – Node.js API (required for all activities)
+- **`frontend/`** – React app built with Vite (used for Activities 1–9)
+- **`next/`** – Next.js 15 app with App Router (used for Activity 10)
+
+---
+
+### 1. Run the Backend (Required for All Activities)
+
+Before running any frontend app, make sure the backend is up and running.
+
+```bash
+cd backend
+npm install   # Only needed the first time
+npm run dev
+```
+
+> The backend must be running for both the React and Next.js apps to function properly.
+
+---
+
+### 2. Run the React App (Activities 1–9)
+
+For activities 1 through 9, use the React app located in the `frontend/` folder:
+
+```bash
+cd frontend
+npm install   # Only needed the first time
+npm run dev
+```
+
+> This app is built with Vite and includes technologies like Redux, Zustand, React Query, and Material UI.
+
+---
+
+### 3. Run the Next.js App (Activity 10)
+
+For activity 10, switch to the Next.js app located in the `next/` folder:
+
+```bash
+cd next
+npm install   # Only needed the first time
+npm run dev
+```
+
+> This app uses Next.js 15 with App Router, Server Actions, NextAuth, and LowDB for local persistence.
+
+---
+
 
 ### 🔌 Recommended VS Code Extensions
 
