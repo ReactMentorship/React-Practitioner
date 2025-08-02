@@ -60,6 +60,58 @@ All branches contain the same content; they are separated solely to facilitate r
 
 ---
 
+## 🛠️ Setup
+
+This repository contains three separate applications:
+
+- **`backend/`** – Node.js API (required for all activities)
+- **`frontend/`** – React app built with Vite (used for Activities 1–9)
+- **`next/`** – Next.js 15 app with App Router (used for Activity 10)
+
+---
+
+### 1. Run the Backend (Required for All Activities)
+
+Before running any frontend app, make sure the backend is up and running.
+
+```bash
+cd backend
+npm install   # Only needed the first time
+npm run dev
+```
+
+> The backend must be running for both the React and Next.js apps to function properly.
+
+---
+
+### 2. Run the React App (Activities 1–9)
+
+For activities 1 through 9, use the React app located in the `frontend/` folder:
+
+```bash
+cd frontend
+npm install   # Only needed the first time
+npm run dev
+```
+
+> This app is built with Vite and includes technologies like Redux, Zustand, React Query, and Material UI.
+
+---
+
+### 3. Run the Next.js App (Activity 10)
+
+For activity 10, switch to the Next.js app located in the `next/` folder:
+
+```bash
+cd next
+npm install   # Only needed the first time
+npm run dev
+```
+
+> This app uses Next.js 15 with App Router, Server Actions, NextAuth, and LowDB for local persistence.
+
+---
+
 ### 🧩 How to Work on an Activity
 
 #### 1. Switch to the activity branch
@@ -112,61 +164,7 @@ Go to your fork on GitHub and open a **pull request from your solution branch to
 
 - Add a clear description of what you implemented and any notes you want the reviewers to consider.
 
-
 ---
-
-## 🏁 Getting Started
-
-This repository contains three separate applications:
-
-- **`backend/`** – Node.js API (required for all activities)
-- **`frontend/`** – React app built with Vite (used for Activities 1–9)
-- **`next/`** – Next.js 15 app with App Router (used for Activity 10)
-
----
-
-### 1. Run the Backend (Required for All Activities)
-
-Before running any frontend app, make sure the backend is up and running.
-
-```bash
-cd backend
-npm install   # Only needed the first time
-npm run dev
-```
-
-> The backend must be running for both the React and Next.js apps to function properly.
-
----
-
-### 2. Run the React App (Activities 1–9)
-
-For activities 1 through 9, use the React app located in the `frontend/` folder:
-
-```bash
-cd frontend
-npm install   # Only needed the first time
-npm run dev
-```
-
-> This app is built with Vite and includes technologies like Redux, Zustand, React Query, and Material UI.
-
----
-
-### 3. Run the Next.js App (Activity 10)
-
-For activity 10, switch to the Next.js app located in the `next/` folder:
-
-```bash
-cd next
-npm install   # Only needed the first time
-npm run dev
-```
-
-> This app uses Next.js 15 with App Router, Server Actions, NextAuth, and LowDB for local persistence.
-
----
-
 
 ### 🔌 Recommended VS Code Extensions
 
