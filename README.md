@@ -57,6 +57,7 @@ Examples:
 - `activity-10-ssr`
 
 All branches contain the same content; they are separated solely to facilitate review through pull requests. In the event of a merge, the remaining branches will remain fully functional and unaffected.
+
 ---
 
 ### 🧩 How to Work on an Activity
