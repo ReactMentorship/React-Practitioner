@@ -25,8 +25,8 @@ export async function signup(
   }
 
   // 2. Prepare data for insertion into database
-  const { email, password } = validatedFields.data;
-  const newUser = { password, username: email };
+  const { email, password, name } = validatedFields.data;
+  const newUser = { password, username: email, name };
 
   // 3. Insert the user into the database or call an Auth Provider's API
   const { message } = await createUser(newUser).catch((error: AxiosError) => {
