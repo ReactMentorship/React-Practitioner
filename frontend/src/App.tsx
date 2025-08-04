@@ -10,6 +10,9 @@ import queryClient from "./queryClient";
 import { persistor, store } from "./stores/authStore";
 import theme from "./theme";
 
+console.log("hello");
+
+
 function App() {
   return (
     <Provider store={store}>
